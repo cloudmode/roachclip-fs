@@ -1,0 +1,5 @@
+#ignore data in test directory, but keep directory itself
+test/data/*
+
+#ignore uuid directory, created when app is run
+examples/uuid
