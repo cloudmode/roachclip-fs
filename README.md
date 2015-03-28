@@ -68,6 +68,7 @@ To run the example, use the host address and host port printed out when you star
 ```bash
 cd examples
 go run simple.go -roachhost 192.168.0.2 -roachport 8080```
+```
 
 The server will be listening on localhost:9090. Direct your browser to localhost:9090/upload, upload
 a file and json with the id of the uploaded file is returned. Copy and paste the id of the uploaded file
