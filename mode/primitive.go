@@ -88,8 +88,6 @@ func init() {
 
 	pdb = "primitive:"
 	metaDb = pdb + "meta:"
-
-	fmt.Println("Primitive.init complete:", kvClient)
 }
 
 // Make a new instance of Primitive, using the bytes read from the reader
